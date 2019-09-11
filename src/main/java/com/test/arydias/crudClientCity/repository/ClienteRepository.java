@@ -11,5 +11,4 @@ public interface ClienteRepository extends JpaRepository<Cliente, Long>  {
 	
 	public List<Cliente> findByNome(@Param("nome") String nome);
 	
-
 }
